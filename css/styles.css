@@ -24,6 +24,20 @@ h3 {
   font-family: 'Merriweather', sans-serif color: #11999E;
   color: #66BFBF;
 }
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
 
 .top-container {
   background-color: #E4F9F5;
@@ -31,9 +45,14 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px 0;
+}
 
-.bottom-container {}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
 
 .skill-row {
   width: 50%;
@@ -41,16 +60,19 @@ h3 {
   text-align: left;
   line-height: 2;
 }
+
 .code-img {
   width: 25%;
   float: left;
   margin-right: 40px;
 }
-.travel-img{
+
+.travel-img {
   width: 25%;
   float: right;
   margin-left: 40px;
 }
+
 .dev {
   text-decoration: underline;
 }
@@ -76,6 +98,7 @@ h3 {
   right: 300px;
   top: 50px;
 }
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -86,7 +109,7 @@ h3 {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -101,4 +124,32 @@ h3 {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.about-me {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact-me {
+  margin-bottom: 6rem;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
